@@ -34,7 +34,7 @@ then
     echo "mysql is not installed.going to install it"
     dnf install mysql -y
     if[ $? -ne 0 ]
-    then 
+    then
         echo "mysql installation is failure..please check"
         exit 1
     else
