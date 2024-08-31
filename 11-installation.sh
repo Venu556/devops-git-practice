@@ -9,7 +9,7 @@ then
     exit 1
 fi
 
-dnf list installed git #just checking whether installed or not
+dnf list installed gitttt #just checking whether installed or not
 
 if [ $? -ne 0 ]
 then
